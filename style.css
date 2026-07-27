@@ -134,4 +134,5 @@ li button:hover {
 }
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
  }
