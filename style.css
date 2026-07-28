@@ -9,7 +9,8 @@ body{
     justify-content: center;
     display: flex;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .container{
@@ -63,6 +64,8 @@ ul{
     list-style: none;
     margin-top: 20px;
     padding: 0;
+    max-height: 250px;   /* Maximum height of task list */
+    overflow-y: auto; 
 }
 li {
     display: flex;
@@ -132,7 +135,3 @@ li button:hover {
     margin:5px;
 
 }
-html {
-    scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
- }
